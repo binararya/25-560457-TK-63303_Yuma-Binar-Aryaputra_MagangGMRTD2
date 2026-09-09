@@ -72,8 +72,8 @@ while True:
     # Menampilkan hasil
     cv2.imshow("Deteksi Objek - YOLOv8n", frame)
 
-    # Menggunakan tombol 'q' untuk keluar loop
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    # Menggunakan tombol 'x' untuk keluar loop
+    if cv2.waitKey(1) & 0xFF == ord('x'):
         break
 
 #Pembersihan resource, melepas akses ke webcam dan menutup jendela
